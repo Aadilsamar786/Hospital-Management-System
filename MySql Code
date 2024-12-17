@@ -1,0 +1,56 @@
+create table login(
+ID varchar(20),
+Pw varchar(20));
+
+create table patient_info(ID varchar(20),
+number varchar(40),
+Name varchar(20),
+Gender varchar(20),
+Patient_Disease varchar(20),
+Room_Number varchar(20),
+Time varchar(100),
+Deposite varchar(20)
+);
+
+create table room(room_no varchar(20),
+Availability varchar(20),
+Price varchar(20),
+Room_type varchar(100)
+);
+
+insert into room values("100","Availabile","500","G Bed 1");
+insert into room values("101","Availabile","500","G Bed 2");
+insert into room values("102","Availabile","500","G Bed 3");
+insert into room values("103","Availabile","500","G Bed 4");
+insert into room values("201","Availabile","1500","Private Room");
+insert into room values("202","Availabile","1500","Private Room");
+insert into room values("203","Availabile","1500","Private Room");
+insert into room values("204","Availabile","1500","Private Room");
+insert into room values("301","Availabile","3500","ICU Bed 1");
+insert into room values("302","Availabile","3500","ICU Bed 2");
+insert into room values("303","Availabile","3500","ICU Bed 3");
+insert into room values("304","Availabile","3500","ICU Bed 4");
+
+
+
+create table Department(
+department varchar(100),
+Phone_no varchar(20));
+
+
+create table EMP_INFO(
+Name varchar(20),
+Age varchar(10),
+Phone_number varchar(20),
+salary varchar(20),
+Gmail varchar(20),
+Adhar_Number varchar(20));
+
+create table Ambulance(
+Name varchar(20),
+Gender varchar(20),
+car_Name varchar(20),
+Available varchar(20),
+Location varchar(20));
+
+
